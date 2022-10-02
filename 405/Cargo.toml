@@ -1,0 +1,35 @@
+[package]
+name = "contest405"
+version = "0.1.0"
+edition = "2018"
+
+[package.metadata.cargo-compete.bin]
+contest405-a = { alias = "a", problem = "https://yukicoder.me/problems/no/2086" }
+contest405-b = { alias = "b", problem = "https://yukicoder.me/problems/no/2087" }
+contest405-c = { alias = "c", problem = "https://yukicoder.me/problems/no/2088" }
+contest405-d = { alias = "d", problem = "https://yukicoder.me/problems/no/2089" }
+contest405-e = { alias = "e", problem = "https://yukicoder.me/problems/no/2090" }
+
+[[bin]]
+name = "contest405-a"
+path = "src/bin/a.rs"
+
+[[bin]]
+name = "contest405-b"
+path = "src/bin/b.rs"
+
+[[bin]]
+name = "contest405-c"
+path = "src/bin/c.rs"
+
+[[bin]]
+name = "contest405-d"
+path = "src/bin/d.rs"
+
+[[bin]]
+name = "contest405-e"
+path = "src/bin/e.rs"
+
+[dependencies]
+
+[dev-dependencies]
